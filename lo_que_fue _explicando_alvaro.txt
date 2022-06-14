@@ -1,0 +1,18 @@
+Cuando ponemos git status:
+
+- Archivos que aparecen en ROJO:
+    - UNTRACKED: con cambios respecto a archivos ya existentes en git
+    - UNSTAGED: con cambios respecto a archivos NO existentes en git, git todavia no los conoce
+    *** con git add los pasamos a staged (con . todos, si no especificamos por nombre de archivo
+
+- Archivos que aparecen en VERDE:
+    - STAGED: archivos que ya estan dentro de un commit, pero todavia no pusheado
+    *** despues hay que meter todos los archivos staged en un commit con git commit -m 'nombredelcommit'
+    Cuando no sabes como salir de ahi ESC : Q
+
+BRNCHES
+Git branch -v #Te dice en que branch estas parado
+Git checkout -b 'Nueva Branck' #Te crea una branch nueva desde el logar donde estas parado que contiene todos los commits que tenias antes Y te switchea a ella
+Si queres pushear a una branch haces git push origin *nombredelabranch*
+
+
